@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chat.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+    <title>chat app Document</title>
+  </head>
+  <body>
+    <div class="fluid-container">
+      <div class="chat-app">
+        <div class="icon-part">
+          <ion-icon
+            class="icon-left message"
+            name="chatbox-ellipses-outline"
+          ></ion-icon>
+          <ion-icon class="icon-left" name="person-circle-outline"></ion-icon>
+          <ion-icon class="icon-left" name="chatbox-outline"></ion-icon>
+          <ion-icon class="icon-left" name="people-outline"></ion-icon>
+          <ion-icon class="icon-left" name="call-outline"></ion-icon>
+          <ion-icon class="icon-left" name="bookmarks-outline"></ion-icon>
+          <ion-icon class="icon-left" name="settings-outline"></ion-icon>
+          <ion-icon class="icon-left" name="moon-outline"></ion-icon>
+          <img src="image/smilbaby.jpg" />
+        </div>
+        <div class="main-part">
+          <div class="chat-header">
+            <p class="chat-line">Chats</p>
+            <p class="plus">+</p>
+          </div>
+          <div class="search-form">
+            <input
+              id="name"
+              type="text"
+              placeholder="search here"
+              class="search-bar"
+            />
+            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          </div>
+
+          <div class="favour-chat">
+            <p class="favour-heading">favourites</p>
+            <div class="favour">
+              <img src="image/image2.jpg" />
+              <p>monu paul</p>
+            </div>
+            <div class="favour second">
+              <div class="favour-first">
+                <img src="image/cute.jpeg" />
+                <span class="status"></span>
+                <p>sam</p>
+              </div>
+              <p class="count">10</p>
+            </div>
+            <div class="favour last">
+              <img src="image/image4.jpg" />
+              <p>sherin</p>
+            </div>
+          </div>
+
+          <div class="favour-chat">
+            <p class="favour-heading">Direct messages</p>
+            <div class="favour">
+              <img src="image/men1.jpeg" />
+              <p>jojo</p>
+            </div>
+            <div class="favour second">
+              <div class="favour-first">
+                <img src="image/men2.jpeg" />
+                <p>alex</p>
+                <span class="status"></span>
+              </div>
+              <p class="count">6</p>
+            </div>
+            <div class="favour last">
+              <img src="image/men3.jpeg" />
+              <p>shado</p>
+            </div>
+          </div>
+          <div class="favour-chat">
+            <p class="favour-heading">channels</p>
+            <div class="favour second">
+              <div class="favour-first">
+                <p>#</p>
+                <p>coding ninja</p>
+              </div>
+              <p class="count">20</p>
+            </div>
+            <div class="favour second">
+              <div class="favour-first">
+                <p>#</p>
+                <p>advance studies</p>
+              </div>
+              <p class="count">10</p>
+            </div>
+            <div class="favour last">
+              <p>#</p>
+              <p>play games</p>
+            </div>
+          </div>
+
+          <!------>
+        </div>
+
+        <div class="chatarea-part">
+          <!-----chatarea header-->
+          <div class="chatarea-header">
+            <div class="name">
+              <div class="image-smitha">
+                <img src="image/image2.jpg" />
+                <span class="dot-status"></span>
+              </div>
+              <div class="online">
+                <p class="online-heading">smitha raj</p>
+                <p class="on">online</p>
+              </div>
+            </div>
+            <div class="icon-sector">
+              <ion-icon class="chatarea-icon" name="search-outline"></ion-icon>
+              <ion-icon class="chatarea-icon" name="call-outline"></ion-icon>
+              <ion-icon
+                class="chatarea-icon"
+                name="bookmarks-outline"
+              ></ion-icon>
+              <ion-icon
+                class="chatarea-icon"
+                name="videocam-outline"
+              ></ion-icon>
+              <ion-icon
+                class="chatarea-icon"
+                name="ellipsis-vertical-outline"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <!------personalchat-->
+          <div class="personal-chat">
+            <div class="day">
+              <p>yesterday</p>
+            </div>
+            <u1 class="privacy">
+              <li class="chat-row">
+                <div class="chat-box">
+                  <a href="#">hai good mrg how r u </a>
+                </div>
+                <div class="img-time">
+                  <img src="image/image2.jpg" />
+                  <p class="time">11.20am</p>
+                </div>
+              </li>
+
+              <li class="right">
+                <div class="right-chatbox">
+                  <a href="#">i am good what about u</a>
+                </div>
+                <div class="action-time">
+                  <ion-icon name="checkmark-done-outline"></ion-icon>
+                  <p>11:24am</p>
+                </div>
+              </li>
+              <li class="chat-row">
+                <div class="chat-box">
+                  <a href="#">Very nice.what's your plan for this weekend</a>
+                </div>
+                <div class="img-time">
+                  <img src="image/image2.jpg" />
+                  <p class="time">11.20am</p>
+                </div>
+              </li>
+              <li class="right">
+                <div class="right-chatbox">
+                  <a href="#">nothing any special </a>
+                </div>
+                <div class="action-time">
+                  <ion-icon name="checkmark-done-outline"></ion-icon>
+                  <p>11:24am</p>
+                </div>
+              </li>
+
+              <li class="chat-row">
+                <div class="chat-box">
+                  <a href="#">will you come to office monday</a>
+                </div>
+                <div class="img-time">
+                  <img src="image/image2.jpg" />
+                  <p class="time">11.30am</p>
+                </div>
+              </li>
+              <li class="right">
+                <div class="right-chatbox"><a href="#">yes sure </a></div>
+                <div class="action-time">
+                  <ion-icon name="checkmark-done-outline"></ion-icon>
+                  <p>11:34am</p>
+                </div>
+              </li>
+
+              <li class="chat-row">
+                <div class="chat-box">
+                  <a href="#">i will be there tuesday afterdays </a>
+                </div>
+                <div class="img-time">
+                  <img src="image/image2.jpg" />
+                  <p class="time">11.40am</p>
+                </div>
+              </li>
+              <li class="right">
+                <div class="right-chatbox"><a href="#">ok goodbye </a></div>
+                <div class="action-time">
+                  <ion-icon name="checkmark-done-outline"></ion-icon>
+                  <p>11:44am</p>
+                </div>
+              </li>
+              <li></li>
+            </u1>
+          </div>
+           <footer class="footer-sec">
+          <ion-icon
+            class="footer-icon"
+            name="ellipsis-horizontal-outline"
+          ></ion-icon>
+          <ion-icon class="footer-icon" name="happy-outline"></ion-icon>
+          <input
+            id="name"
+            class="input-mess"
+            type="text"
+            placeholder="type the message"
+          />
+          <ion-icon class="footer-icon" name="mic-outline"></ion-icon>
+          <ion-icon class="footer-icon send" name="send-outline"></ion-icon>
+        </footer>
+      </div>
+  
+        </div>
+       
+  </body>
+</html>
